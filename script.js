@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
 ScrollReveal({ reset: false, distance: "30px", duration:2000 });
 ScrollReveal().reveal('h1', { delay: 100, origin: "top" });
 ScrollReveal().reveal('.border', { delay: 100, origin: "top" });
-ScrollReveal().reveal('img', { delay: 100, origin: "left" });
 ScrollReveal().reveal('.back', { delay: 30, origin: "left" });
 ScrollReveal().reveal('.ham', { delay: 50, origin: "right" });
 ScrollReveal().reveal('p', { delay: 10, origin: "left" });
