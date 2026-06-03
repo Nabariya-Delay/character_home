@@ -338,11 +338,7 @@ header {
     z-index: -1;
 }
 
-@media (max-width: 600px) {
-    .st_load h2 {
-        font-size: 3.5rem;
-    }
-    
+@media (max-width: 600px) {   
     .back {
         width: 140px;
         left: 20px;
@@ -351,30 +347,11 @@ header {
     }
     
     h1 {
-        bottom: 70px;
-        right: 20px;
+        bottom: 30px;
+        right: 30px;
         font-size: 2.2rem;
     }
-    
-    .ham {
-        top: 20px;
-        right: 20px;
-        width: 50px;
-        height: 50px;
-    }
-    
-    .ham span {
-        width: 24px;
-        right: 12px;
-    }
-    
-    .ham span:nth-child(1) { top: 13px; }
-    .ham span:nth-child(2) { top: 23px; }
-    .ham span:nth-child(3) { bottom: 13px; }
-    
-    .ham.active span:nth-child(1) { transform: translateY(10px) rotate(45deg); }
-    .ham.active span:nth-child(3) { transform: translateY(-10px) rotate(-45deg); }
-    
+       
     main img {
         height: 100%;
         max-width: 100%;
@@ -382,5 +359,24 @@ header {
         position: absolute;
         left: 0;
         bottom: 0;
+    }
+}
+
+.ab_01{
+    position: absolute;
+    justify-content: center;
+    /* margin-top: 120px; */
+    margin: 300px 30px 100px 30px;
+    width: calc(100lvw - 60px);
+    height: calc(100lvh - 300px);
+}
+
+.container {
+    width: calc(100vw - 60px);
+    line-height: 2.5em;
+
+    p {
+        margin-top: 50px;
+        font-size: 1rem;
     }
 }
